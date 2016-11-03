@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMVC_parent", "HMVC_parent\HMVC_parent.csproj", "{BC1438B0-0354-41CD-85F9-660E73D6C89A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMVC_child", "HMVC_parent\Areas\HMVC_child\HMVC_child.csproj", "{2D9B34A5-EE6F-4B69-93E6-CA47B6B648EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1438B0-0354-41CD-85F9-660E73D6C89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1438B0-0354-41CD-85F9-660E73D6C89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1438B0-0354-41CD-85F9-660E73D6C89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1438B0-0354-41CD-85F9-660E73D6C89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9B34A5-EE6F-4B69-93E6-CA47B6B648EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9B34A5-EE6F-4B69-93E6-CA47B6B648EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9B34A5-EE6F-4B69-93E6-CA47B6B648EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9B34A5-EE6F-4B69-93E6-CA47B6B648EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
